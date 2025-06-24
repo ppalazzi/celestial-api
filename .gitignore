@@ -1,0 +1,39 @@
+# Node.js dependencies
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+
+# Typescript compiled files
+*.tsbuildinfo
+dist/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# IntelliJ IDEA / WebStorm
+*.iml
+out/
+
+# macOS
+.DS_Store
+
+# npm package logs
+*.tgz
+
+# Debug vsCode
+.vscode-test/
