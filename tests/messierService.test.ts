@@ -1,4 +1,5 @@
-import {test, strictEqual} from 'node:test';
+import { test } from 'node:test';
+import { strictEqual } from 'node:assert/strict';
 import messierService, { MESSIER_URL } from '../src/services/messierService.ts';
 import axios from 'axios';
 
