@@ -29,13 +29,15 @@ The server reads configuration from `.env` and `.env.local` files. By default it
 
 ## Testing
 
-A simple Node.js test file is provided in the `tests/` directory. Run it with:
+A simple test written in TypeScript lives in the `tests/` directory. Run all
+tests with:
 
 ```bash
-node --test tests/messierService.test.js
+npm test
 ```
 
-The default `npm test` script is only a placeholder.
+The command uses Node's built in test runner together with `ts-node` to execute
+the `.ts` test files.
 
 ## License
 
