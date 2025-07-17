@@ -1,5 +1,5 @@
-import {test, strictEqual} from 'node:test';
-import messierService, { MESSIER_URL } from '../src/services/messierService.ts';
+import { test, strictEqual } from 'node:test';
+import messierService, { MESSIER_URL } from '../src/services/messierService';
 import axios from 'axios';
 
 // Mock axios
